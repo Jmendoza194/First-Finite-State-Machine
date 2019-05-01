@@ -74,7 +74,7 @@ class App extends React.Component{
       
         return(            
             <div className= "container" >
-              <h1> Stop Light Simulator! </h1>
+              <h1> Traffick Light Simulator! </h1>
               <div classname= 'button'>
               <button onClick={this.onHandleClick.bind(this)} className={property}>
                 Change the Light!
